@@ -8,3 +8,6 @@ Font:
 -Download 'Bebas' font (Regular).
 
 
+Here is a preview of the Rock-Paper-Scissors game:
+
+![Game Screenshot](images/Demo.png)
