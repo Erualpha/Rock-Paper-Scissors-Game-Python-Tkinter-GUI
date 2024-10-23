@@ -6,7 +6,7 @@ root = Tk()
 root.title("RPS")
 root.geometry("400x600")
 root.resizable(0,0)
-root.iconbitmap("icon.ico")
+root.iconbitmap('images/icon.ico')
 
 #======Functions=====
 scr_player = 0
@@ -99,22 +99,22 @@ def reset_game():
 
 #======Images=========
 
-player_rock = ImageTk.PhotoImage(Image.open('rock1.png'))
-player_paper = ImageTk.PhotoImage(Image.open('paper1.png'))
-player_scissor = ImageTk.PhotoImage(Image.open('scissor1.png'))
-comp_rock = ImageTk.PhotoImage(Image.open('rock.png'))
-comp_paper = ImageTk.PhotoImage(Image.open('paper.png'))
-comp_scissor = ImageTk.PhotoImage(Image.open('scissor.png'))
+player_rock = ImageTk.PhotoImage(Image.open('images/rock1.png'))
+player_paper = ImageTk.PhotoImage(Image.open('images/paper1.png'))
+player_scissor = ImageTk.PhotoImage(Image.open('images/scissor1.png'))
+comp_rock = ImageTk.PhotoImage(Image.open('images/rock.png'))
+comp_paper = ImageTk.PhotoImage(Image.open('images/paper.png'))
+comp_scissor = ImageTk.PhotoImage(Image.open('images/scissor.png'))
 
-logo = ImageTk.PhotoImage(Image.open('logo.png'))
-scoreboard = ImageTk.PhotoImage(Image.open('scoreboard.png'))
-scoreboard1 = ImageTk.PhotoImage(Image.open('scoreboard1.png'))
-bg = ImageTk.PhotoImage(Image.open('bg.png'))
-rock_button = ImageTk.PhotoImage(Image.open('rock_button.png'))
-paper_button = ImageTk.PhotoImage(Image.open('paper_button.png'))
-scissor_button = ImageTk.PhotoImage(Image.open('scissor_button.png'))
-new_game = ImageTk.PhotoImage(Image.open('new_game.png'))
-quit_game = ImageTk.PhotoImage(Image.open('quit_game.png'))
+logo = ImageTk.PhotoImage(Image.open('images/logo.png'))
+scoreboard = ImageTk.PhotoImage(Image.open('images/scoreboard.png'))
+scoreboard1 = ImageTk.PhotoImage(Image.open('images/scoreboard1.png'))
+bg = ImageTk.PhotoImage(Image.open('images/bg.png'))
+rock_button = ImageTk.PhotoImage(Image.open('images/rock_button.png'))
+paper_button = ImageTk.PhotoImage(Image.open('images/paper_button.png'))
+scissor_button = ImageTk.PhotoImage(Image.open('images/scissor_button.png'))
+new_game = ImageTk.PhotoImage(Image.open('images/new_game.png'))
+quit_game = ImageTk.PhotoImage(Image.open('images/quit_game.png'))
 
 #=======CanvasWidgets====
 canvas_main = Canvas(root, width = 400, height = 600)
